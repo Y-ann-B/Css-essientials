@@ -1,0 +1,183 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header nav{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(15, 3, 57);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;  
+}
+
+.img{
+
+    height: 100px;
+}
+
+nav img {
+
+    width: 120px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.ancres, .img  {
+    width: auto;
+    display: inline-block;
+   
+}
+
+.ancres ul{
+    height: auto;
+    
+}
+
+.ancres ul li {
+    height: auto;
+    display: inline-block;
+    margin: 20px 10px;
+    right: 20px;
+}
+
+ul{
+    width: auto;
+    height: 100px;
+    list-style: none;
+    display: flex;
+}
+
+ul a { 
+    text-decoration: none;
+    color: rgb(91, 2, 174);
+    font-size: 20px;
+}
+
+ul a:hover {
+   
+    color: rgb(105, 8, 94);
+    border-bottom: solid rgb(105, 8, 94) 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+  
+ 
+body {
+    background-image:url(back.avif) ;
+    background-attachment: fixed;
+}
+
+.d1{
+    display: flex;
+    justify-content: center;
+}
+
+.f1 { 
+    margin-top: 85px;
+    font-size: 40px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    background-color: rgb(48, 2, 63);
+    width: 600px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+}
+.text-1 p{
+
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.642);
+    color: azure;
+    word-spacing: 4px;
+    line-height: 2;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.r1 { 
+  display: flex;
+  justify-content: center;
+}
+
+.di-1  {
+    width: 300px;
+    height: 350px;
+    background-color: rgba(23, 48, 69, 0.627);
+    display: inline-block;
+    border: solid black 3px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.di-1 h2{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-weight: 600;
+    margin: auto;
+}
+
+article img{
+    width: 200px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+
+figcaption {
+    font-size: 15px;
+    font-weight: 600;
+    /* background-color: rgba(0, 0, 0, 0.642); */
+    color: azure;
+    word-spacing: 4px;
+    line-height: 2;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+    margin: auto;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.r2{
+    display: flex;
+}
+
+.r2 .youtube-1 {
+    position: relative;
+    left: 2px;
+    margin-top: 20px;
+} 
+
+.r2 .youtube-2 {
+    position: relative;
+    left: 2px;
+    margin-top: 20px;
+}
